@@ -57,3 +57,17 @@ D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debu
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.csproj.CopyComplete
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.dll
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.pdb
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\MySqlConnector.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Buffers.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Memory.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Numerics.Vectors.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Threading.Tasks.Extensions.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\MySqlConnector.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Buffers.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Memory.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Numerics.Vectors.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Threading.Tasks.Extensions.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\BCrypt.Net.dll
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\BCrypt.Net.xml
