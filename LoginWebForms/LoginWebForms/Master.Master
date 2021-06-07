@@ -25,6 +25,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="Listar.aspx">Usuários</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Sair.aspx">Sair</a>
+                    </li>
                 </ul>
             </div>
         </nav>

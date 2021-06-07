@@ -23,14 +23,14 @@
                 <hr class="colorgraph" />
                 <br />
 
-                <asp:TextBox runat="server" type="text" class="form-control" name="Username" 
+                <asp:TextBox id="txtUsuario" runat="server" type="text" class="form-control" name="Username" 
                     placeholder="Usuário" required="" autofocus="" />
 
-                <asp:TextBox runat="server" type="password" class="form-control" name="Password" 
+                <asp:TextBox ID="txtSenha" runat="server" type="password" class="form-control" name="Password" 
                     placeholder="Senha" required="" />
 
-                <asp:Button runat="server" class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit" 
-                    Text="Acessar"></asp:Button>
+                <asp:Button id="btnAcessar" runat="server" class="btn btn-lg btn-primary btn-block" name="Submit" value="Login" type="Submit" 
+                    Text="Acessar" OnClick="btnAcessar_Click"></asp:Button>
             </form>
         </div>
     </div>
