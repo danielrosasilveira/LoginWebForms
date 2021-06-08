@@ -42,15 +42,34 @@ namespace LoginWebForms
 
                 if (BCrypt.Net.BCrypt.Verify(senha, senhaEncriptada))
                 {
-                    cmd.CommandText = @"select nivel from usuario where login = @login";
+                    //cmd.CommandText = @"select nivel from usuario where login = @login";
+                    //cmd.Parameters.AddWithValue("@login", usuario);
+                    //string nivel = Convert.ToString(cmd.ExecuteScalar());
+
+                    //cmd.CommandText = @"select nome from usuario where login = @nome";
+                    //cmd.Parameters.AddWithValue("@nome", usuario);
+                    //string nome = Convert.ToString(cmd.ExecuteScalar());
+
+                    cmd.CommandText = @"select nome, nivel
+                                        from usuario
+                                        where login=@login";
+
                     cmd.Parameters.AddWithValue("@login", usuario);
-                    string nivel = Convert.ToString(cmd.ExecuteScalar());
+
+                    var dr = cmd.ExecuteReader();
+
+                    dr.Read();
+
+                    string nome = dr.GetString("nome");
+                    string nivel = dr.GetString("nivel");
+
 
                     //Fazer Redirecionamento
-                    FormsAuthentication.RedirectFromLoginPage(nivel, false);
+                    FormsAuthentication.RedirectFromLoginPage(nome, false);
 
                     //Dados da Sessão
                     Session["Perfil"] = nivel;
+                    Session["Nome"] = nome;
                 }
                 else
                 {
