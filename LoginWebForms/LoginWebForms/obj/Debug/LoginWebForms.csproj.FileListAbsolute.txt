@@ -52,7 +52,6 @@ D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\rosl
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\roslyn\VBCSCompiler.exe.config
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.csprojAssemblyReference.cache
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.csproj.CoreCompileInputs.cache
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.csproj.CopyComplete
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.dll
@@ -71,3 +70,4 @@ D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\Syst
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\System.Threading.Tasks.Extensions.xml
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\BCrypt.Net.dll
 D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\bin\BCrypt.Net.xml
+D:\OneDrive\Área de Trabalho\LoginWebForms\LoginWebForms\LoginWebForms\obj\Debug\LoginWebForms.csproj.AssemblyReference.cache

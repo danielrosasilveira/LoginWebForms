@@ -13,6 +13,13 @@ namespace LoginWebForms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            string nivel = Session["Perfil"].ToString();
+
+            if (nivel == "O")
+            {
+                btnAdicionar.Visible = false;
+            }
+
             CarregarUsuarios();
         }
 
@@ -43,6 +50,20 @@ namespace LoginWebForms
         protected void btnAdicionar_Click(object sender, EventArgs e)
         {
             Response.Redirect("Adicionar.aspx");
+        }
+
+        protected void rptUsuarios_ItemDataBound(object sender, RepeaterItemEventArgs e)
+        {
+            string nivel = Session["Perfil"].ToString();
+
+            var lnkEditar = (LinkButton)e.Item.FindControl("lnkEditar");
+            var lnkRemover = (LinkButton)e.Item.FindControl("lnkRemover");
+
+            if (lnkEditar != null && lnkRemover !=null && nivel == "O")
+            {
+                lnkEditar.Visible = false;
+                lnkRemover.Visible = false;
+            }
         }
     }
 }
